@@ -1070,6 +1070,7 @@ form label {
   border-radius: 50%;
   width: 150px;
   height: 150px;
+  background-color: #fff;
 }
 .couple-half .groom img, .couple-half .bride img {
   width: 150px;
@@ -1881,4 +1882,17 @@ p{
 @keyframes move-clouds-back {
   from {background-position:0 0;}
   to {background-position:10000px 0;}
+}
+
+iframe{
+  width: 40vw;
+  height:52vh;
+}
+
+@media screen and (max-width: 1000px) {
+  iframe{
+  width: 70vw;
+  height: 30vh;
+}
+
 }
